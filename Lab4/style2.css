@@ -1,0 +1,146 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #f2f2f2;
+
+}
+
+#headimg {
+	margin-left: 70px; 
+}
+
+.headimg2 {
+	box-shadow: 1px 1px 10px #000000 ;
+	width: 100%; height: 55px;
+}
+
+
+#maindiv {
+	padding-left: 10px;
+	
+	
+}
+
+.dborder {
+	padding-right: 10px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box- shadow: 1px 1px 60px #000000;
+}
+
+.dborder1 {
+	border: 1px solid white;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-repeat: repeat-y;
+	box- shadow: 1px 1px 25px #000000;
+}
+
+#map {
+	padding-right: 30px;
+	border: 1px solid black;
+	
+}
+
+.space {
+	padding-bottom: 100px;
+}
+
+.tablem {
+	padding-left: 170px;
+}
+
+p {
+	font-family: verdana, arial; 
+	color: black;
+	max-width: 60%;
+	padding: 0px 40px 0px 40px;
+	text-s hadow: 0px 0px 7px;
+
+}
+
+ul {
+	font-family: verdana, arial; 
+	color: black;
+	padding: 0px 40px 0px 40px;
+	text- shadow: 0px 0px 7px;
+}
+
+a:link {
+	text-decoration: none;
+	text- shadow: 1px 1px 10px;
+	color: green;
+	font-style: italic;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	
+	background-color: maroon;
+	color: white;
+	font-size: 20px;
+}
+a:active {
+	background-color: grey;
+}
+
+h1 {
+margin-left: 20px;
+text-align: left;
+color: white;
+background-image: url(h2bg.jpg);
+font-family: arial;
+}
+
+h2 {
+
+	text-align: left;
+	margin-left: 20px;
+	color: white;
+	font-size: 35px;
+	font-family: arial;
+	background-image: url( h2bg.jpg);
+}
+
+h2:hover, h1:hover {
+	background-image: url(h2bg1.jpg);
+}
+
+#headimg:hover {
+	box-shadow: 1px 1px 30px red;
+}
+
+img:hover {
+	box-shadow: 1px 1px 15px;
+}
+
+.floats {
+	box- shadow: 1px 1px 15px #000000;
+	float: left;
+	clear: both;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.floatr {
+	float: right;
+	padding-right: 10px;
+}
+
+.floatl {
+	float: left;
+}
+
+.endfloat {
+	clear: both;
+
+}
+
+td {
+	padding-right:30px;
+}
+
+footer {
+	text-align: center;
+}
