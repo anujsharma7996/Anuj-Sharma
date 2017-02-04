@@ -1,0 +1,80 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background-image: url(BGG.jpg);
+}
+
+header {
+	text-align: center;
+	font-size: 40px;
+	 
+}
+header:hover, div:hover {
+	box-shadow: 0px 0px 15px yellow;
+}
+
+#headimg {
+	margin: 0px;
+	padding:0px;
+}
+
+#maindiv {
+	padding-left: 140px;
+	padding-right: 140px;	
+}
+
+.dborder {
+	border: 1px solid black;
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #c3d5b4;
+}
+
+header {
+	background-color: #67af2c;
+	color: white
+}
+
+img:hover {
+	box-shadow: 0px 0px 5px red;
+}
+
+#map {
+	padding: 20px 0px 40px 170px;
+	
+}
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-shadow: 0px 0px 3px red;
+}
+
+p {
+	font-family: arial,helvetica,verdana; 
+	color: black;
+	padding: 0px 40px 0px 40px;
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+	text-align: center;
+	color: white;
+	font-size: 35px;
+	background-color: #67af2c;
+	box-shadow: 1px 1px 20px #000000;
+}
+
+td {
+	padding-right:10px;
+}
+
+footer {
+	text-align: center;
+}
