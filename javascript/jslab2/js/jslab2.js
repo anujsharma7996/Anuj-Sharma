@@ -25,4 +25,6 @@ function sayHello () {
         .querySelector("h1")
         .textContent = title;
   }
+
+  console.log("Sup");
 }
