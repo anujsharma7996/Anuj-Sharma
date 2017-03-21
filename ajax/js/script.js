@@ -2,9 +2,10 @@
 document.addEventListener("DOMContentLoaded",
   function (event) {
 
+    function myfunc() {
     var myname = document.querySelector("#data").value;
     console.log(myname)
-    
+    }
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", function () {
