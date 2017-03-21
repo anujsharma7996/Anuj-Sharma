@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",
       .addEventListener("click", function () {
         
         // Call server to get the name
-        if (myname === anuj){
+        if (myname === "anuj"){
         $ajaxUtils
           .sendGetRequest("data/name.txt", 
             function (request) {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",
                 .innerHTML = "<h2>" + name + "!</h2>";
             }); }
 
-          else if (myname === damini){
+          else if (myname === "damini"){
               $ajaxUtils
           .sendGetRequest("data/name2.txt", 
             function (request) {
@@ -35,4 +35,3 @@ document.addEventListener("DOMContentLoaded",
       });
   }
 );
-
