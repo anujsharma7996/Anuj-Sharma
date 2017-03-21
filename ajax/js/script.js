@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded",
     }
 
   function (event) {
-
    
     // Unobtrusive event binding
     document.querySelector("button")
