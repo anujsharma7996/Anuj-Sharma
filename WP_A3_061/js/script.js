@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",
       .addEventListener("click", function () {
         
         var input =  document.querySelector("#nameis").value;
-       console.log(input);
+       
         // Call server to get the name
 
         $ajaxUtils
