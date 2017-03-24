@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
 
         $ajaxUtils
-          .sendGetRequest("data/name.json", 
+          .sendGetRequest("name.json", 
             function (res) {
 
               if (input === res.name1) {
