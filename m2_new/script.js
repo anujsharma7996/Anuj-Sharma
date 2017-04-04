@@ -27,14 +27,14 @@ document.addEventListener("DOMContentLoaded",
               var message = res.name1;
               var message2 = "Attendance of theory is " + res.att2t + "% , ";
               var message3 = "Attendance of lab is " + res.att1l;
-              var message3 = "Theory and labs attended is 17/20 and 18/20 respectfully";
+              var message4 = "Theory and labs attended is 17/20 and 18/20 respectfully";
                 }
 
               document.querySelector("#content")
-                .innerHTML = "<h2>" + message + "</h2>";
-                .innerHTML = "<h2>" + message + "</h2>";
-                .innerHTML = "<h2>" + message + "</h2>";
-                .innerHTML = "<h2>" + message + "</h2>";
+                .innerHTML = "<h2>" + message + "</h2>"
+                .innerHTML = "<h2>" + message2 + "</h2>"
+                .innerHTML = "<h2>" + message3 + "</h2>"
+                .innerHTML = "<h2>" + message4 + "</h2>";
 
             });
       });
