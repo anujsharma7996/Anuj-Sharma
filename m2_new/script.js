@@ -31,13 +31,7 @@ document.addEventListener("DOMContentLoaded",
                 }
 
               document.querySelector("#content")
-                .innerHTML = "<h2>" + message + "</h2>";
-          document.querySelector("#content")
-                .innerHTML = "<h2>" + message2 + "</h2>";
-          document.querySelector("#content")
-                .innerHTML = "<h2>" + message3 + "</h2>";
-          document.querySelector("#content")
-                .innerHTML = "<h2>" + message4 + "</h2>";
+                .innerHTML = message + "</br>" + message2 + "</br>" + message3 + "</br>"+ message4 + "</br>";
 
             });
       });
